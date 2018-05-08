@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.wzc.lottiedemo.MainActivity">
+
+  <Button
+      android:id="@+id/btn_xml"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="From xml from res/raw"
+      android:textAllCaps="false"/>
+
+  <Button
+      android:id="@+id/btn_programmatical_res_raw"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Programmatically from res/raw"
+      android:textAllCaps="false"/>
+
+  <Button
+      android:id="@+id/btn_programmatical_network"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Programmatically from network"
+      android:textAllCaps="false"/>
+
+  <Button
+      android:id="@+id/btn_cache_animations"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Caching Animations"
+      android:textAllCaps="false"/>
+
+  <Button
+      android:id="@+id/btn_animation_listener"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Animation Listener"
+      android:textAllCaps="false"/>
+
+</LinearLayout>
